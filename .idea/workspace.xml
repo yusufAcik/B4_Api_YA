@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day02/SimpleGetRequest.java" afterDir="false" />
+    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="22 8">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/ClassTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/PetStoreWithPathParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,25 +44,25 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.SimpleGetRequest.getRequestWithContainsMethod2">
-    <configuration name="SimpleGetRequest.basicGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.PetStoreWithPathParam.petStoreFindPathByID3">
+    <configuration name="ClassTask.bookStoreTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
+          <option name="PATTERN" value="apiTest.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="basicGetRequest" />
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.ClassTask" />
+      <option name="METHOD_NAME" value="bookStoreTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,17 +70,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleGetRequest.getRequestWithContainsMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreWithPathParam.petStoreFindPathByID" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
+          <option name="PATTERN" value="apiTest.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="getRequestWithContainsMethod" />
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PetStoreWithPathParam" />
+      <option name="METHOD_NAME" value="petStoreFindPathByID" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreWithPathParam.petStoreFindPathByID2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PetStoreWithPathParam" />
+      <option name="METHOD_NAME" value="petStoreFindPathByID2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreWithPathParam.petStoreFindPathByID3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PetStoreWithPathParam" />
+      <option name="METHOD_NAME" value="petStoreFindPathByID3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,49 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleGetRequest.getRequestWithHeader" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="getRequestWithHeader" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleGetRequest.getRequest_VerificationWithRestAssured" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="getRequest_VerificationWithRestAssured" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PetStoreWithPathParam.petStoreFindPathByID3" />
+        <item itemvalue="TestNG.PetStoreWithPathParam.petStoreFindPathByID2" />
+        <item itemvalue="TestNG.PetStoreWithPathParam.petStoreFindPathByID" />
+        <item itemvalue="TestNG.ClassTask.bookStoreTest1" />
         <item itemvalue="TestNG.SimpleGetRequest.getRequestWithContainsMethod2" />
-        <item itemvalue="TestNG.SimpleGetRequest.getRequestWithContainsMethod" />
-        <item itemvalue="TestNG.SimpleGetRequest.getRequest_VerificationWithRestAssured" />
-        <item itemvalue="TestNG.SimpleGetRequest.getRequestWithHeader" />
-        <item itemvalue="TestNG.SimpleGetRequest.basicGetRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +161,18 @@
       <option name="presentableId" value="Default" />
       <updated>1692624474837</updated>
     </task>
+    <task id="LOCAL-00001" summary="22 8">
+      <created>1692652303958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692652303958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="22 8" />
   </component>
 </project>
