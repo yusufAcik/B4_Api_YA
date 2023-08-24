@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="22 8">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/ClassTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/PetStoreWithPathParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithParam.java" afterDir="false" />
+    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="23 8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/PathMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestAndVerifyHeaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithQueryParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithParam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +51,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.PetStoreWithPathParam.petStoreFindPathByID3">
-    <configuration name="ClassTask.bookStoreTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PathMethod.testAllUsersWithPathMth">
+    <configuration name="PathMethod.testAllUsersWithPathMth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +61,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.ClassTask" />
-      <option name="METHOD_NAME" value="bookStoreTest1" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PathMethod" />
+      <option name="METHOD_NAME" value="testAllUsersWithPathMth" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetStoreWithPathParam.petStoreFindPathByID" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PathMethod.testWithPathMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +79,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PetStoreWithPathParam" />
-      <option name="METHOD_NAME" value="petStoreFindPathByID" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PathMethod" />
+      <option name="METHOD_NAME" value="testWithPathMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetStoreWithPathParam.petStoreFindPathByID2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserGetRequestAndVerifyHeaders.headerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +97,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PetStoreWithPathParam" />
-      <option name="METHOD_NAME" value="petStoreFindPathByID2" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestAndVerifyHeaders" />
+      <option name="METHOD_NAME" value="headerTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetStoreWithPathParam.petStoreFindPathByID3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserGetRequestWithQueryParam.queryParams" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +115,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.PetStoreWithPathParam" />
-      <option name="METHOD_NAME" value="petStoreFindPathByID3" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithQueryParam" />
+      <option name="METHOD_NAME" value="queryParams" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,17 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleGetRequest.getRequestWithContainsMethod2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserGetRequestWithQueryParam.requestWithMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
+          <option name="PATTERN" value="apiTest.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="getRequestWithContainsMethod2" />
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithQueryParam" />
+      <option name="METHOD_NAME" value="requestWithMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PetStoreWithPathParam.petStoreFindPathByID3" />
-        <item itemvalue="TestNG.PetStoreWithPathParam.petStoreFindPathByID2" />
-        <item itemvalue="TestNG.PetStoreWithPathParam.petStoreFindPathByID" />
-        <item itemvalue="TestNG.ClassTask.bookStoreTest1" />
-        <item itemvalue="TestNG.SimpleGetRequest.getRequestWithContainsMethod2" />
+        <item itemvalue="TestNG.PathMethod.testAllUsersWithPathMth" />
+        <item itemvalue="TestNG.PathMethod.testWithPathMethod" />
+        <item itemvalue="TestNG.UserGetRequestWithQueryParam.requestWithMap" />
+        <item itemvalue="TestNG.UserGetRequestWithQueryParam.queryParams" />
+        <item itemvalue="TestNG.UserGetRequestAndVerifyHeaders.headerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,11 +168,19 @@
       <option name="project" value="LOCAL" />
       <updated>1692652303958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="23 8">
+      <created>1692822263359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692822263359</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="22 8" />
+    <MESSAGE value="23 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="23 8" />
   </component>
 </project>
