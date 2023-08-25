@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="23 8">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/PathMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestAndVerifyHeaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithQueryParam.java" afterDir="false" />
+    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="24 8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04/BookStorePathMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04/KraftExlabJsonPathMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithParam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,61 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.PathMethod.testAllUsersWithPathMth">
+  <component name="RunManager" selected="TestNG.KraftExlabJsonPathMethod.getAllUsersWithJsonPath">
+    <configuration name="BookStorePathMethod.bookStoreGetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04.BookStorePathMethod" />
+      <option name="METHOD_NAME" value="bookStoreGetTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KraftExlabJsonPathMethod.getAllUsersWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04.KraftExlabJsonPathMethod" />
+      <option name="METHOD_NAME" value="getAllUsersWithJsonPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KraftExlabJsonPathMethod.getUserAndVerifyItWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04.KraftExlabJsonPathMethod" />
+      <option name="METHOD_NAME" value="getUserAndVerifyItWithJsonPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PathMethod.testAllUsersWithPathMth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
@@ -88,67 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequestAndVerifyHeaders.headerTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestAndVerifyHeaders" />
-      <option name="METHOD_NAME" value="headerTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserGetRequestWithQueryParam.queryParams" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithQueryParam" />
-      <option name="METHOD_NAME" value="queryParams" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserGetRequestWithQueryParam.requestWithMap" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithQueryParam" />
-      <option name="METHOD_NAME" value="requestWithMap" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KraftExlabJsonPathMethod.getAllUsersWithJsonPath" />
+        <item itemvalue="TestNG.KraftExlabJsonPathMethod.getUserAndVerifyItWithJsonPath" />
+        <item itemvalue="TestNG.BookStorePathMethod.bookStoreGetTest" />
         <item itemvalue="TestNG.PathMethod.testAllUsersWithPathMth" />
         <item itemvalue="TestNG.PathMethod.testWithPathMethod" />
-        <item itemvalue="TestNG.UserGetRequestWithQueryParam.requestWithMap" />
-        <item itemvalue="TestNG.UserGetRequestWithQueryParam.queryParams" />
-        <item itemvalue="TestNG.UserGetRequestAndVerifyHeaders.headerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,12 +173,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692822263359</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="24 8">
+      <created>1692907043725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692907043725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22 8" />
     <MESSAGE value="23 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="23 8" />
+    <MESSAGE value="24 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="24 8" />
   </component>
 </project>
