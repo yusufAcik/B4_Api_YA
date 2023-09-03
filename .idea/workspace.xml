@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="28 8">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07/NewUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07/PostEducation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07/PostRequestDemo.java" afterDir="false" />
+    <list default="true" id="661f01e9-40f7-411e-83ac-468478b10f76" name="Changes" comment="3 9">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08/Post_Put_Patch_Delete_Flow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\B4_Api_YA\src\test\java\apiPOJOTemplates" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PostEducation.postNewUserAndVerify">
+  <component name="RunManager" selected="TestNG.Post_Put_Patch_Delete_Flow">
     <configuration name="PostEducation.postNewUser4_withEducation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
@@ -93,42 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequestDemo.postNewUser2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07.PostRequestDemo" />
-      <option name="METHOD_NAME" value="postNewUser2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostRequestDemo.postNewUser3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B4_Api_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07.PostRequestDemo" />
-      <option name="METHOD_NAME" value="postNewUser3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostRequestDemo.postNewUser4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B4_Api_YA" />
       <extension name="coverage">
@@ -147,13 +110,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Post_Put_Patch_Delete_Flow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day08" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08.Post_Put_Patch_Delete_Flow" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post_Put_Patch_Delete_Flow.addExperience" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B4_Api_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day08" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08.Post_Put_Patch_Delete_Flow" />
+      <option name="METHOD_NAME" value="addExperience" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Post_Put_Patch_Delete_Flow" />
+        <item itemvalue="TestNG.Post_Put_Patch_Delete_Flow.addExperience" />
         <item itemvalue="TestNG.PostEducation.postNewUserAndVerify" />
         <item itemvalue="TestNG.PostEducation.postNewUser4_withEducation" />
         <item itemvalue="TestNG.PostRequestDemo.postNewUser4" />
-        <item itemvalue="TestNG.PostRequestDemo.postNewUser3" />
-        <item itemvalue="TestNG.PostRequestDemo.postNewUser2" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693242037035</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3 9">
+      <created>1693754872331</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693754872331</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,6 +223,7 @@
     <MESSAGE value="25 8" />
     <MESSAGE value="27 8" />
     <MESSAGE value="28 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="28 8" />
+    <MESSAGE value="3 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 9" />
   </component>
 </project>
